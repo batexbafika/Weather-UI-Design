@@ -25,7 +25,6 @@ body{
    justify-content: center;
     width: 20em;
     height: 40em;
-    border: 1px solid red;
     margin-left: 33em;
     margin-top: 0.2em;
     overflow: hidden;
@@ -222,7 +221,7 @@ hr{
 }
 
 .main{
-    margin-left:34em;
+    margin-left:33em;
     padding-top: -1em;
     padding-bottom: -4em;
     color: antiquewhite;

@@ -1,241 +1,225 @@
-*{
-    margin: 0px;
-    padding: 0px;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-image: linear-gradient(to bottom, #401a46,#466445, #3a1a3f);
+body {
+  background-image: linear-gradient(to bottom, #401a46, #466445, #3a1a3f);
 }
 
-
-.container{
-    display: block;
-     width: 20em;
-     height: 30em;
-    overflow: hidden;
-    border-radius: 1px 1px 4em 4em ;
-    box-shadow: 0px 4px 6px gray;
-
+.container {
+  display: block;
+  width: 20em;
+  height: 30em;
+  overflow: hidden;
+  border-radius: 1px 1px 4em 4em;
+  box-shadow: 0px 4px 6px gray;
 }
 
-.section1{
-    display: block;
-    flex-wrap: nowrap;
-   justify-content: center;
-    width: 20em;
-    height: 40em;
-    margin-left: 33em;
-    margin-top: 0.2em;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
+.section1 {
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 20em;
+  height: 40em;
+  margin-left: 33em;
+  margin-top: 0.2em;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
 }
 
-
-.im1{
-    width: 0.5em;
-    height: 0.7em;
- 
-
+.im1 {
+  width: 0.5em;
+  height: 0.7em;
 }
 
-.im{
-    width: 2em;
-
-    }
-
-hr{
-        width: 0.4em;
-        height: 0.4em;
-        border: 1px solid rgb(223, 219, 219);
-        background-color: rgb(85, 101, 247);
-        border-radius: 6px 6px;
-        margin-bottom: 0.2em;     
+.im {
+  width: 2em;
 }
 
-#loca{
-   
-    color: rgb(8, 8, 177);
-    text-align: right;
-    font-size: xx-large;
-  
+hr {
+  width: 0.4em;
+  height: 0.4em;
+  border: 1px solid rgb(223, 219, 219);
+  background-color: rgb(85, 101, 247);
+  border-radius: 6px 6px;
+  margin-bottom: 0.2em;
+}
+
+#loca {
+  color: rgb(8, 8, 177);
+  text-align: right;
+  font-size: xx-large;
+}
+
+#Ndop {
+  font-size: 10px;
+  color: rgb(159, 159, 243);
+}
+.circle {
+  display: block;
+  text-align: center;
+  border: 1px solid rgb(18, 66, 199);
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 4em;
+  color: blue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3em;
+  justify-content: space-around;
+  padding-bottom: 2em;
+}
+
+.degree-cloud {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: rgb(9, 19, 161);
+  margin-top: -3em;
+}
+
+.teencloud {
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 9em;
+}
+/* A good alternative for below */
+/* #cloud2 {
+    position: absolute; The parent to contain this must be positioned relative
+    top: auto; or some value
+    left: auto; or some value
+} 
+*/
+#cloud2 {
+  width: 6em;
+  height: 4em;
+  margin-top: 3.2em;
+  z-index: 2;
+  margin-left: -3.8em;
+}
+.lowcloud {
+  font-size: 20px;
+  margin-left: -2.7em;
+}
+
+.teen {
+  font-size: 69px;
+  text-shadow: 0px 3px 5px rgb(143, 136, 136);
+}
+
+.all-status {
+  display: flex;
+  flex-direction: row;
+  width: 16em;
+  height: 3.8em;
+  overflow: hidden;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 2em 2em;
+  margin-left: 2em;
+  margin-top: 1em;
+  background-color: rgb(228, 231, 248);
+  box-shadow: 0px 3px 6px rgb(116, 116, 129);
+}
+
+/* You find yourself combining styles for different class names?
+* Just use one class.
+    e.g .status
+    > .status {<your-styles>}
     
+*/
+.status1,
+.status2,
+.status3 {
+  font-size: 10px;
+  padding-top: 0.6em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(136, 136, 236);
+  padding-left: 2.5em;
 }
 
-#Ndop{
-    font-size: 10px;
-    color: rgb(159, 159, 243);
-   
-}
-.circle{
-      display: block;
-      text-align: center;
-    border: 1px solid rgb(18, 66, 199);
-    width:1.2em;
-    height: 1.2em;
-    border-radius: 4em;
-    color: blue;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    padding-top: 3em;
-   justify-content: space-around;
-   padding-bottom: 2em;
-
-
+.curve {
+  display: block;
+  flex-direction: row;
+  overflow: hidden;
+  width: 460px;
+  padding-right: 2em;
 }
 
-
-
-.degree-cloud{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    color: rgb(9, 19, 161);
-    margin-top: -3em;
+.curve1 {
+  width: 30em;
+  height: 6em;
+  padding-top: 1em;
 }
 
-.teencloud{
-    display: block;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 9em;
+.cards {
+  display: flex;
+  flex-direction: row;
 }
-#cloud2{
-    width: 6em;
-    height: 4em;
-    margin-top: 3.2em;
-    z-index: 2;   
-    margin-left: -3.8em;
-}
-.lowcloud{
-
-       font-size: 20px;
-       margin-left: -2.7em;
-       
-   
+.e {
+  margin-left: 1em;
+  color: rgb(143, 143, 243);
 }
 
-.teen{
-    font-size: 69px;
-    text-shadow: 0px 3px 5px rgb(143, 136, 136);
-    
+.days {
+  display: block;
+  flex-direction: column;
+  width: 3.4em;
+  height: 5.7em;
+  border-radius: 1em 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(151, 151, 248);
+  margin-left: 2em;
+  padding-top: 0.2em;
 }
 
-.all-status{
-    display: flex;
-    flex-direction: row;
-    width: 16em;
-    height: 3.8em;
-    overflow: hidden;
-    justify-content: center;
-    justify-content: space-around;
-    border-radius: 2em 2em;
-    margin-left: 2em;
-    margin-top: 1em;
-    background-color: rgb(228, 231, 248);
-    box-shadow: 0px 3px 6px rgb(116, 116, 129);
-
+.days1 {
+  display: flex;
+  flex-direction: column;
+  width: 3.4em;
+  height: 5.7em;
+  border-radius: 1em 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(95, 95, 241);
+  justify-content: center;
+  padding-top: 0.2em;
 }
 
-.status1,.status2,.status3{
-    font-size: 10px;
-    padding-top: 0.6em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(136, 136, 236);
-    padding-left: 2.5em;
+.sun {
+  width: 1em;
+  height: 1em;
+  padding-left: 1em;
 }
 
-
-
-.curve{
-   display: block;
-   flex-direction: row;
-   overflow: hidden;
-   width: 460px;
-   padding-right: 2em;
+.cloudstroke,
+.cloudrain,
+.cloudlightening {
+  justify-content: center;
+  width: 1em;
+  height: 1em;
 }
 
-.curve1{
-    width: 30em;
-    height: 6em;
-    padding-top: 1em;
+.main {
+  margin-left: 33em;
+  padding-top: -1em;
+  padding-bottom: -4em;
+  color: antiquewhite;
 }
 
-.cards{
-    display: flex;
-    flex-direction: row;
-   
-    
-
+.result {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
 }
-.e{
-    margin-left: 1em;
-    color: rgb(143, 143, 243);
+.forcast {
+  color: rgb(14, 25, 177);
+  margin-left: 3em;
+  padding-top: 1em;
 }
-
-
-
-.days{
-    display: block;
-    flex-direction: column;
-    width: 3.4em;
-    height: 5.7em;
-    border-radius: 1em 1em;   
-    text-align: center;
-    color:rgb(255, 255, 255);
-    background-color: rgb(151, 151, 248);
-    margin-left: 2em;
-    padding-top: 0.2em;
-   
-}
-
-.days1{
-    display: flex;
-    flex-direction: column;
-    width: 3.4em;
-    height: 5.7em;
-    border-radius: 1em 1em;
-    text-align: center;
-    color:rgb(255, 255, 255);
-    background-color: rgb(95, 95, 241);
-    justify-content: center;
-    padding-top: 0.2em;
-}
-
-.sun{
-    width: 1em;
-    height: 1em;
-    padding-left: 1em;
-    
-}
-
-.cloudstroke,.cloudrain,.cloudlightening{
-    justify-content: center;
-    width: 1em;
-    height: 1em;
-}
-
-.main{
-    margin-left:33em;
-    padding-top: -1em;
-    padding-bottom: -4em;
-    color: antiquewhite;
-}
-
-.result{
-    display: flex;
-     margin-top: 2em;
-     justify-content: center;
-}
-.forcast{
-    color: rgb(14, 25, 177);
-    margin-left: 3em;
-    padding-top: 1em;
-}
-
-
